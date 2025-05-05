@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>I.Shree - Summer Collection</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -25,14 +25,14 @@
     <section class="hero">
       <h1>☀️ Embrace the Summer with I.Shree</h1>
       <p>Discover our vibrant and breezy Summer Collection, designed for style and comfort under the sun.</p>
-      <button id="shopNowBtn">Shop the Collection Now</button>
+      <button onclick="shopCollection()">Shop the Collection Now</button>
     </section>
 
     <section>
       <h2 class="collection-heading">Summer Collection Highlights</h2>
       <div class="product-grid">
-        <!-- Product Cards (same as before) -->
-        <!-- Only content was omitted for brevity -->
+        <!-- Product cards here (unchanged) -->
+        <!-- Copy all your <div class="product-card"> from the original code -->
       </div>
     </section>
 
@@ -40,16 +40,23 @@
       <h2 class="reviews-heading">Customer Reviews</h2>
       <div class="review-card">
         <p class="reviewer-name">Priya Sharma</p>
-        <p class="review-text">Loved the Floral Breeze Dress! ...</p>
+        <p class="review-text">Loved the Floral Breeze Dress! It's so comfortable and perfect for summer outings. The fabric is light and airy.</p>
       </div>
-      <!-- More reviews... -->
+      <div class="review-card">
+        <p class="reviewer-name">Amit Patel</p>
+        <p class="review-text">The Lightweight Linen Top is exactly what I was looking for. Great quality and a stylish addition to my summer wardrobe.</p>
+      </div>
+      <div class="review-card">
+        <p class="reviewer-name">Sneha Reddy</p>
+        <p class="review-text">Bought the Cotton Blend Shorts and they are super versatile. Can dress them up or down. Highly recommend!</p>
+      </div>
     </section>
 
     <section class="newsletter-section">
       <h3>Subscribe to Our Newsletter</h3>
       <p>Stay updated with the latest collections, exclusive offers, and style tips!</p>
-      <form class="newsletter-form">
-        <input type="email" placeholder="Your Email Address" />
+      <form class="newsletter-form" onsubmit="subscribeNewsletter(event)">
+        <input type="email" placeholder="Your Email Address" required />
         <button type="submit">Subscribe</button>
       </form>
     </section>
@@ -58,7 +65,11 @@
       <h2 class="feature-heading">Why Shop With I.Shree?</h2>
       <ul class="feature-list">
         <li><span class="feature-icon"></span> High-Quality Fabrics</li>
-        <!-- More features... -->
+        <li><span class="feature-icon"></span> Unique & Trendy Designs</li>
+        <li><span class="feature-icon"></span> Fast & Reliable Shipping</li>
+        <li><span class="feature-icon"></span> Easy Returns & Exchanges</li>
+        <li><span class="feature-icon"></span> Secure Payment Options</li>
+        <li><span class="feature-icon"></span> Dedicated Customer Support</li>
       </ul>
     </section>
   </div>
