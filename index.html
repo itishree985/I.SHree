@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>I.Shree - Summer Collection</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
   <header>
     <a href="#" class="logo">I.Shree</a>
   </header>
@@ -22,45 +23,102 @@
   </nav>
 
   <div class="container">
+
+    <!-- Hero Section -->
     <section class="hero">
       <h1>☀️ Embrace the Summer with I.Shree</h1>
       <p>Discover our vibrant and breezy Summer Collection, designed for style and comfort under the sun.</p>
-      <button onclick="shopCollection()">Shop the Collection Now</button>
+      <button>Shop the Collection Now</button>
     </section>
 
+    <!-- Product Highlights -->
     <section>
       <h2 class="collection-heading">Summer Collection Highlights</h2>
       <div class="product-grid">
-        <!-- Product cards here (unchanged) -->
-        <!-- Copy all your <div class="product-card"> from the original code -->
+
+        <!-- Product Cards -->
+        <div class="product-card">
+          <img src="https://images.meesho.com/images/products/423450907/mrlsr_512.webp" alt="Summer Dress 1" class="product-image" />
+          <h3 class="product-title">Floral Breeze Dress</h3>
+          <p class="product-price">₹1299.00</p>
+          <button class="shop-now-button">View Details</button>
+          <button class="add-to-cart-button">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/29003010/2024/4/17/a68f1193-4d88-4c22-90dc-aa7f0bef1db11713345664257USPoloAssnWomenMandarinCollarLinenShirtStyleTop1.jpg" alt="Summer Top 1" class="product-image" />
+          <h3 class="product-title">Lightweight Linen Top</h3>
+          <p class="product-price">₹799.00</p>
+          <button class="shop-now-button">View Details</button>
+          <button class="add-to-cart-button">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2V7hO1dN4cgPvnl7iDK3HXryRTIr6ehqfPA&s" alt="Summer Shorts 1" class="product-image" />
+          <h3 class="product-title">Cotton Blend Shorts</h3>
+          <p class="product-price">₹599.00</p>
+          <button class="shop-now-button">View Details</button>
+          <button class="add-to-cart-button">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://sukritistore.com/cdn/shop/files/WhatsAppImage2023-06-27at8.43.20AM.jpg?v=1689668883" alt="Summer Kurti 1" class="product-image" />
+          <h3 class="product-title">Printed Cotton Kurti</h3>
+          <p class="product-price">₹999.00</p>
+          <button class="shop-now-button">View Details</button>
+          <button class="add-to-cart-button">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKOzfs_5A7U8ZU65vRued1Dkzt7TWJJcCdUw&s" alt="Summer Saree 1" class="product-image" />
+          <h3 class="product-title">Lightweight Georgette Saree</h3>
+          <p class="product-price">₹1999.00</p>
+          <button class="shop-now-button">View Details</button>
+          <button class="add-to-cart-button">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTco1Hx07h-Ii7Zjn2MTBXtHh4s-Ag5yJuoEg&s" alt="Summer Skirt 1" class="product-image" />
+          <h3 class="product-title">Flowy Midi Skirt</h3>
+          <p class="product-price">₹899.00</p>
+          <button class="shop-now-button">View Details</button>
+          <button class="add-to-cart-button">Add to Cart</button>
+        </div>
+
       </div>
     </section>
 
+    <!-- Reviews -->
     <section class="review-section">
       <h2 class="reviews-heading">Customer Reviews</h2>
+
       <div class="review-card">
         <p class="reviewer-name">Priya Sharma</p>
         <p class="review-text">Loved the Floral Breeze Dress! It's so comfortable and perfect for summer outings. The fabric is light and airy.</p>
       </div>
+
       <div class="review-card">
         <p class="reviewer-name">Amit Patel</p>
         <p class="review-text">The Lightweight Linen Top is exactly what I was looking for. Great quality and a stylish addition to my summer wardrobe.</p>
       </div>
+
       <div class="review-card">
         <p class="reviewer-name">Sneha Reddy</p>
         <p class="review-text">Bought the Cotton Blend Shorts and they are super versatile. Can dress them up or down. Highly recommend!</p>
       </div>
     </section>
 
+    <!-- Newsletter -->
     <section class="newsletter-section">
       <h3>Subscribe to Our Newsletter</h3>
       <p>Stay updated with the latest collections, exclusive offers, and style tips!</p>
-      <form class="newsletter-form" onsubmit="subscribeNewsletter(event)">
-        <input type="email" placeholder="Your Email Address" required />
+      <form class="newsletter-form">
+        <input type="email" placeholder="Your Email Address" />
         <button type="submit">Subscribe</button>
       </form>
     </section>
 
+    <!-- Features -->
     <section class="feature-section">
       <h2 class="feature-heading">Why Shop With I.Shree?</h2>
       <ul class="feature-list">
@@ -72,12 +130,12 @@
         <li><span class="feature-icon"></span> Dedicated Customer Support</li>
       </ul>
     </section>
+
   </div>
 
   <footer>
     <p>&copy; 2025 I.Shree - Summer Collection</p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
